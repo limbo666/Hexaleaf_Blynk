@@ -5,7 +5,7 @@ The control of the hexagons is switched to LAN based using a custom made windows
 Communication protocol is changed but the functions are the same with some additional stuff added. 
 
 <img src="https://img.shields.io/badge/-ProjectForMakers-yellowgreen"> <img src="https://img.shields.io/badge/-Difficulty:EASY-purple"> 
-## Hexaleaf Blynk
+## Hexaleaf MKII
 ![enter image description here](https://github.com/limbo666/Hexaleaf_Blynk/blob/master_Hexaleaf_MKII/Pics/Hexaleaf_Hexagons.png?raw=true)
 
 
@@ -15,7 +15,7 @@ The control should be done over LAN using the provided windows application or an
 
 ### Block Diagram
 
-<img src="https://raw.githubusercontent.com/limbo666/Hexaleaf_Blynk/master/Pics/Block%20Diagram.jpg" width="800" height="350">
+<img src="https://github.com/limbo666/Hexaleaf_MKII/blob/master_Hexaleaf_MKII/Pics/Block%20Diagram.jpg" width="800" height="350">
 <p> The electronic circuitry is quite simple for the device. you can use any ESP32 based board with WS8212 ledstrip (also known as Neopixel).
 Be aware that each LED on the strip can draw up to 60mA of current when all three colors are ON (White color in full illumination). You must select a power source capable to cover the current needs of your hexaleaf.
 <p>In one of my creations I have used 18 LEDs on each hexagon in 7 hexagons in total. The total current needed was above 7A (18*7*60 = 7560mA) in this case and I was forced to buy a special 5V power supply (a 5V 8A power brick).  
