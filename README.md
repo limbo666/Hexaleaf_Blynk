@@ -24,6 +24,12 @@ Be aware that each LED on the strip can draw up to 60mA of current when all thre
 ### Programming
 The Arduino code for ESP32, can be compiled and uploaded to the board by using Arduino IDE, PlatformIO or Visual Studio with VisualMicro plugin.<p>
 Support ESP32 based boards should be added to your IDE by using boards manager prior compiling and uploading. Also and FastLED and WiFiUdp libraries are needed. You must to add these libraries using the  library manager.
+
+
+### Controller
+![enter image description here](https://raw.githubusercontent.com/limbo666/Hexaleaf_MKII/master_Hexaleaf_MKII/Controller/Win/Controller_GUI.png)
+Hexaleaf controller is free and it can be downloaded from from [here](https://github.com/limbo666/Hexaleaf_MKII/tree/master_Hexaleaf_MKII/Controller/Win) With Hexaleaf controller you can control your devices over LAN.
+
   
 ### Code changes 
 The device is changes to accept text strings over LAN in UDP communication scheme in order to be controlled.
