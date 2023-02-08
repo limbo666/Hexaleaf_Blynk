@@ -27,9 +27,11 @@ Support ESP32 based boards should be added to your IDE by using boards manager p
 
 
 ### Controller
+The controller resository can be found on https://github.com/limbo666/Hexaleaf_Controller
+It is highy recomended to visit this reository and download the program form release pages.
 ![enter image description here](https://raw.githubusercontent.com/limbo666/Hexaleaf_MKII/master_Hexaleaf_MKII/Controller/Win/Controller_GUI.png)
 
-  Hexaleaf controller is free and it can be downloaded from from [here](https://github.com/limbo666/Hexaleaf_MKII/tree/master_Hexaleaf_MKII/Controller/Win) 
+ For convinence an early version of Hexaleaf controller it is also contained on [this](https://github.com/limbo666/Hexaleaf_MKII/tree/master_Hexaleaf_MKII/Controller/Win) folder.
   . With Hexaleaf controller you can control your devices over LAN.
 
   
